@@ -1,0 +1,63 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif    
+}
+
+header {
+    background-color:rgb(109, 11, 11);
+    padding:30px;
+    text-align:center;
+    font-size:40px;
+    color:white;
+}
+
+nav {
+    background-color:black;
+    text-align:center;
+}
+
+/*이놈이 u1임*/
+nav .menu {
+    list-style-type:none;
+    display:inline-block;
+    }
+
+nav .menu a {
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    padding:20px;
+    display:inline-block;
+}
+
+nav .menu li {
+    display:inline-block;
+}
+
+nav .menu .dropdown .dropdown-content {
+    position:absolute;
+    background-color:black;
+    min-width:98.40px;
+    display:none;
+}
+
+nav .menu .dropdown .dropdown-content a {
+    display:block;
+    text-align:left;
+    
+} 
+
+nav .menu li:hover .dropdown-content {
+    display:block;
+}
+
+@media(max-width:500px){
+    nav .menu li{
+        display:block;
+    }
+    nav .menu .dropdown .dropdown-content {
+        position:relative;
+    }
+}

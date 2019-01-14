@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>회원가입 폼</title>
+</head>
+
+<body>
+    <form action="test.html" method="GET">
+        <table border="1" width="700px" style="border-collapse:collapse;border:1px FFC19E solid;">
+            <tr>
+                <td align="center" bgcolor="EAEAEA">
+                    아이디
+                </td>
+                <td>
+                    <input type="textbox" name="id" size="10px">
+                    <input type="button" value="중복검사">
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="EAEAEA">
+                    이름
+                </td>
+                <td>
+                    <input type="textbox" name="name" size="10px">
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="EAEAEA">
+                    주민번호
+                </td>
+                <td>
+                    <input type="textbox" size="25px">
+                    예)000000-0000000
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="EAEAEA">
+                    이메일
+                </td>
+                <td>
+                    <input type="email" name="email" size="35px">
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="EAEAEA">
+                    집전화
+                </td>
+                <td>
+                    <input type="textbox" name="tel1" size="5px">-
+                    <input type="textbox" name="tel2" size="5px">-
+                    <input type="textbox" name="tel3" size="5px">
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="EAEAEA">
+                    휴대전화
+                </td>
+                <td>
+                    <input type="textbox" name="phone1" size="5px">-
+                    <input type="textbox" name="phone2" size="5px">-
+                    <input type="textbox" name="phone3" size="5px">
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="EAEAEA">
+                    주소검색
+                </td>
+                <td>
+                    <input type="textbox" name="addsearch" size="10px">
+                    <input type="button" value="검색하긔">
+                    (주소입력 : 용호동, 대연동..)
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="EAEAEA">
+                    주소
+                </td>
+                <td>
+                    <select name="address" style="width:400px;">
+                        <option></option>
+                        <option value="dae">대연동</option>
+                        <option value="boo">부전동</option>
+                        <option value="dang">당감동</option>
+                        <option value="jae">재송동</option>
+                        <option value="yong">용당동</option>
+                        <option value="soo">수영동</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="EAEAEA">
+                    상세주소
+                </td>
+                <td>
+                    <input type="textbox" name="detailadd" size="60px">
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="EAEAEA">
+                    학력
+                </td>
+                <td>
+                    <select name="educat">
+                        <option value="yoo">유졸</option>
+                        <option value="ele">초졸</option>
+                        <option value="mid">중졸</option>
+                        <option value="high">고졸</option>
+                        <option value="uni">대졸</option>
+                        <option value="superuni">대학원</option>
+                        <option value="nojob">백수</option>
+                        <option value="sole">빛이나는 쏠로</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="EAEAEA">
+                    홍보매체
+                </td>
+                <td>
+                    <select name="media">
+                        <option>어떻게 알게 되었나요?</option>
+                        <option value="face">페이스북?</option>
+                        <option value="naver">네이버 블로그?</option>
+                        <option value="insta">인스타구램?</option>
+                        <option value="google">구글?</option>
+                        <option value="friend">친구한테 들엇니?</option>
+                        <option value="advert">광고에서 봤어?</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="EAEAEA">
+                    메일수신
+                </td>
+                <td>
+                    <input type="checkbox" name="agree">
+                    네. KH정보교육원에서 제공하는 정보메일 수신에 동의합니댜.
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="EAEAEA">
+                    교육장소
+                </td>
+                <td>
+                    <select name="loca">
+                        <option>선택하시요</option>
+                        <option value="busan">부산대 평생교육원</option>
+                        <option value="donga">동아대 평생교육원</option>
+                        <option value="dongseo">동서대 평생교육원</option>
+                        <option value="gyung">경성대 평생교육원</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="EAEAEA">
+                    비밀번호
+                </td>
+                <td>
+                    <input type="textbox" name="pw" size="10px">
+                    확인
+                    <input type="textbox" name="repw" size="10px">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" name="join" value="회원가입">
+        <input type="reset" value="초기화">
+    </form>
+
+</body>
+
+</html>
+

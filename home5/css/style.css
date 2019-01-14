@@ -1,0 +1,142 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+    display:grid;
+    grid-template-columns: 3fr 1fr 1fr 3fr;
+    grid-gap:0 80px;
+    margin:30px 0;
+    padding:0 10px;
+    height:300px;
+    padding:30px 20px;
+    line-height:2em
+}
+
+li {
+    list-style-type:none;
+    text-decoration-line:none;
+}
+p{
+    text-decoration-line: underline;
+    color:rgb(173, 160, 160);
+}
+
+.shot {
+    text-align:center;
+}
+main {
+    margin: 10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:20px;
+}
+
+
+.color1{
+    height:600px;
+    background-color:#d5ecf4;
+    background-size:100% 100%;
+    
+}
+            
+.chair{
+    background-image:url("https://i.pinimg.com/564x/a9/29/68/a9296861b27d0f483dfcca54b79a76b5.jpg");
+    background-size: 100% 100%;
+    grid-column:2/2 span;
+    
+}
+                 
+.color2{
+    background-color:#e5efd9;
+    height: 300px;
+    width:100%;
+   
+}
+       
+.light{
+    background-image:url("https://i.pinimg.com/564x/91/45/97/9145975e4a07ca65a80e61059a618931.jpg"); 
+    grid-column: 2/1 span;
+    grid-row: 2/2 span;
+    background-size: 100% 100%;
+    
+}
+       
+.color3{
+    background-color:#fcf8c0;
+    height: 300px;
+    width:100%;
+    
+}
+          
+.color4{
+    background-color:#ebebeb;
+    grid-row: 3/1 span;
+    height: 300px;
+    width:100%;
+}
+            
+.cabage{    
+    background-image:url("https://i.pinimg.com/236x/78/ee/a9/78eea9ba650b73f0fe0d9652f6d025bb.jpg");
+    grid-column: 3/1 span;
+    grid-row: 3/1 span;
+    background-size: 100% 100%;
+    height: 300px;
+    width:100%;
+}
+.color5{
+    background-color:#f4c5c3;
+    grid-column: 1/2 span;
+    grid-row: 4/1 span;
+    height: 600px;
+    width:100%;
+}
+.sunban{
+    background-image:url("https://i.pinimg.com/564x/f4/60/27/f46027b7568b05d37b2f110d746f9230.jpg");
+    grid-column: 3/1 span;
+    grid-row: 4/1 span;
+    height: 600px;
+    
+}
+
+.sunban2{
+    background-image:url("https://i.pinimg.com/564x/44/5c/ab/445cabc3f44b363c7fc5e9375625e28d.jpg");
+    grid-column: 1/2 span;
+    grid-row: 5/1 span;
+    height: 300px;
+    
+}
+
+.sunban3{
+    background-image:url("https://i.pinimg.com/236x/fd/aa/89/fdaa89ef1c215e84982a08d532e9a431.jpg");
+    grid-column: 3/1 span;
+    grid-row: 5/1 span;
+    height: 300px;
+    background-size: 100% 100%;
+}
+.color6{
+    background-color:#e5efd8;
+    grid-column: 1/2 span;
+    grid-row: 6/2 span;
+    height: 620px;
+    
+}
+.chair2{
+    background-image:url("https://i.pinimg.com/564x/65/37/28/6537287a63553bdee3589e53345abff6.jpg");
+    grid-column: 3/1 span;
+    grid-row: 6/1 span;
+    height: 300px;
+    
+}
+.color7{
+    background-color:#fcf8c0;
+    grid-column: 3/1 span;
+    grid-row: 7/1 span;
+    background-size: 100% 100%;
+    height: 300px;
+   
+}
