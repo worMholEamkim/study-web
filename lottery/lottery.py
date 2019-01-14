@@ -17,11 +17,10 @@ def generate_numbers():
 def draw_winning_numbers():
     
     
-
 # 두 리스트에서 중복되는 숫자가 몇개인지 구하기
 def count_matching_numbers(list1, list2):
     
 
 # 로또 등수 확인하기
 def check(numbers, winning_numbers):
-    /*dffdf*/
+   
