@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class MiddleSize {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int middle = 0;
+		int arrayInt[] = new int[3];
+		
+		System.out.println("정수 3개 입력쓰>>");
+		for(int i = 0;i < 3;i++) {
+			arrayInt[i] = in.nextInt();
+			middle = arrayInt[i];
+			if(arrayInt[i] > middle) {
+				arrayInt[i] = middle;
+				i++;
+				}
+			else if(arrayInt[i] < middle) {
+				i++;
+			}
+			if(arrayInt[0] < middle)
+				if(arrayInt[2] > middle)
+					middle = arrayInt[i];
+				
+		}
+		System.out.println("중간 값은 " + arrayInt[1]);
+	}
+
+}
