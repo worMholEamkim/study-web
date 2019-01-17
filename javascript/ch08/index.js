@@ -4,10 +4,7 @@ function addDiv() {
     newDiv.innerHTML = "가"
     newDiv.innerHTML = "나"
     let card_list = document.querySelector(".card-list")
-    card_list.prepend(newDiv);
+    card_list.append(newDiv);
 }
 
-addDiv();
-addDiv();
-addDiv();
-addDiv();
+
