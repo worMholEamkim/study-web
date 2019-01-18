@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="https://studypie.co/static/img/favicon.ico?v=345f0a446e2854c2147c08aa5828257c">
     <link rel="stylesheet" href="css/style.css">
     <title> 스터디파이, 온라인으로 끝까지 공부하는 확실한 방법!</title>
 </head>
@@ -12,10 +12,10 @@
 <body>
     <header class="title">
         <nav class="navbar page-wrapper">
-            <a class="navbar-brand" href="#"><img class="navber-logo" src="https://studypie.co/static/img/logo_dark.svg"></a>
+            <a class="navbar-brand" href="#"><img class="navbar-logo" src="images/logo_dark.svg"></a>
             <div class="navbar-signup">
-                <a class="navbar-login" href="#"><img class="navber-logo" src="#"></a>
-                <a class="navbar-signin" href="#"><img class="navber-logo" src="#"></a>
+                <a href="signin&up.html">SIGNIN</a>
+                <a href="signin&up.html">SIGNUP</a>
             </div>
         </nav>
         <div class="page-wrapper">
@@ -28,11 +28,13 @@
             </div>
             <div class="company-title">스터디 참가자 재직기업</div>
             <div class="company-title-list">
-                <div class="company-title-logo-img">가</div>
-                <div class="company-title-logo-img">나</div>
-                <div class="company-title-logo-img">다</div>
-                <div class="company-title-logo-img">라</div>
-                <div class="company-title-logo-img">마</div>
+                <div class="index-btn"><img src="https://studypie.co/static/img/ic_arrow_left_gray.svg"></div>
+                <div class="company-title-logo-img"><img src="images/amazon.png"></div>
+                <div class="company-title-logo-img"><img src="images/platum.png"></div>
+                <div class="company-title-logo-img"><img src="images/samsung.png"></div>
+                <div class="company-title-logo-img"><img src="images/uber.png"></div>
+                <div class="company-title-logo-img"><img src="images/seoul_univ.png"></div>
+                <div class="index-btn"><img src="https://studypie.co/static/img/ic_arrow_right_gray.svg"></div>
             </div>
 
 
@@ -47,17 +49,17 @@
                 <hr>
                 <div class="process-content">
                     <div class="process-content-box1">
-                        <a class="process-content-menu" href="#">슬랙초대 수락/가입하기</a>
+                        <a class="process-content-menu active-menu" href="#">슬랙초대 수락/가입하기</a>
                         <a class="process-content-menu" href="#">매일 30분 - 1시간 학습</a>
                         <a class="process-content-menu" href="#">수시로 질문</a>
                         <a class="process-content-menu" href="#">주간과제 제출</a>
                         <a class="process-content-menu" href="#">온라인 스터디참여</a>
                         <a class="process-content-menu" href="#">완주시 환급</a>
                     </div>
-                    <div class="process-contexnt-box2">
-                        <img class="process-content-img" src="#">
-                        <p class="content-title">슬랙(Slack)서비스 초대메일을 수락하고 가입합니다.</p>
-                        <p class="content-desc">온라인 스터디는 슬랙이라는 커뮤니케이션툴을 통해 진행되빈다. 신청시 제출 해 주신 이메일로 스터디 시작 2일 전 슬랙 초대
+                    <div class="process-content-box2">
+                        <img class="process-content-img" src="images/main_illust_how_to_0.svg">
+                        <p class="content-title"><a href="#" class="slack-text">슬랙(Slack)서비스</a> 초대메일을 수락하고 가입합니다.</p>
+                        <p class="content-desc">온라인 스터디는 슬랙이라는 커뮤니케이션툴을 통해 진행됩니다. 신청시 제출 해 주신 이메일로 스터디 시작 2일 전 슬랙 초대
                             메일을
                             보내드립니다. 온라인 스터디 참여방식 메뉴얼을 참고 해 주세요!</p>
                     </div>
@@ -65,127 +67,338 @@
                 </div>
                 <hr>
             </div>
-            <h3 class="section-title">인기 <span class="f-light">스터디</span></h3>
-            <section class="contents">
-                <div class="card-course">1
-                    <p>Popular Tags</p>
-                    <ul>
-                        <li>#프로그래밍</li>
-                        <li>#비즈니스</li>
-                        <li>#재테크</li>
-                        <li>#데이터 분석</li>
-                        <li>#마케팅</li>
-                        <li>#머신러닝</li>
-                    </ul>
-                </div>
-                <div class="card-course">2</div>
-                <div class="card-course">3</div>
-                <div class="card-course">4</div>
-                <div class="card-course">5</div>
-                <div class="card-course">6</div>
-                <div class="card-course">7</div>
-                <div class="card-course">8</div>
-                <div class="card-course">9</div>
-                <div class="card-course">10</div>
-                <div class="card-course">11</div>
-            </section>
-        </div>
-        <div class="index-btn"><a href="#">모든 스터디 보러 가기 ></a></div>
 
-        <div class="page-wrapper">
-            <div class="section-wrapper">
-                <h3 class="section-title">수강생 후기</h3>
-                <p class="section-desc">스터디 파이 스터디에 참여해주셨던 분들의 실제 후기입니다.</p>
+            <h3 class="section-title">인기<span class="f-light">스터디</span></h3>
+            <div class="page-wrapper">
+                <section class="contents">
+                    <div class="card-course-tags">
+                        <img class="clip-image" src="images/ic_clip.svg">
+                        <p>Popular Tags</p>
+                        <ul>
+                            <li>#프로그래밍</li>
+                            <li>#비즈니스</li>
+                            <li>#재테크</li>
+                            <li>#데이터 분석</li>
+                            <li>#마케팅</li>
+                            <li>#머신러닝</li>
+                        </ul>
+                    </div>
+                    <div class="card-course"><span class="early-text">1차 얼리버드</span><img src="images/course_1.png">
+                        <div class="card-body">
+                            <p class="card-text1">비즈니스</p>
+                            <h5 class="card-text2">비즈니스 회계입문</h5>
+                            <p>연세대/카이스트 MBA에서 강의하고 계시는 교수님과 함께 회계의 기본에 대해 배울 수 있는 스터디입니다.</p>
+                        </div>
+                        <div class="card-body">
+                            <span class="cancle-text">11만원</span><br>
+                            <span class="font-red">9만원</span>
+                            <img src="images/gray_dot.svg">
+                            <span>5만원 환급</span>
+                        </div>
+                        <div class="card-footer-wrappher">
+                            <div class="card-footer">
+                                <span class="footer-text">
+                                    <img src="images/clock_sm.svg">4주
+                                </span>
+                                <img src="images/gray_dot.svg">
+                                <span>02월 12일 시작</span>
+                                <img src="https://studypie.co/static/img/ic_arrow_right_gray.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-course">
+                        <span class="early-text">5차 얼리버드</span>
+                        <img src="images/course_2.png">
 
-                <div class="section-content-wrapper">
-                    <img src="#">
-                    <div class="section-content">
-                        <p>1</p>
-                        <p>2</p>
+                        <div class="card-body">
+                            <p class="card-text1">비즈니스</p>
+                            <h5 class="card-text2">해외 스타트업 테크트렌드</h5>
+                            <p>최신 테크 트렌드의 개념부터 적용사례까지, 딥다이브 하는 스터디입니다.</p>
+                        </div>
+                        <div class="card-body">
+                            <span class="cancle-text">11만원</span><br>
+                            <span class="font-red">9만원</span>
+                            <img src="images/gray_dot.svg">
+                            <span>5만원 환급</span>
+                        </div>
+
+                        <div class="card-footer-wrappher">
+                            <div class="card-footer">
+                                <span class="footer-text">
+                                    <img src="images/clock_sm.svg">4주
+                                </span>
+                                <img src="images/gray_dot.svg">
+                                <span>02월 12일 시작</span>
+                                <img src="https://studypie.co/static/img/ic_arrow_right_gray.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-course"><span class="early-text">1차 얼리버드</span><img src="images/course_3.png">
+                        <div class="card-body">
+                            <p class="card-text1">블록체인</p>
+                            <h5 class="card-text2">블록체인 입문</h5>
+                            <p>블록체인을 기본 개념부터 공부하길 원하시는 분들을 위한 스터디입니다.</p>
+                        </div>
+                        <div class="card-body">
+                            <span class="cancle-text">11만원</span><br>
+                            <span class="font-red">9만원</span>
+                            <img src="images/gray_dot.svg">
+                            <span>5만원 환급</span>
+                        </div>
+                        <div class="card-footer-wrappher">
+                            <div class="card-footer">
+                                <span class="footer-text">
+                                    <img src="images/clock_sm.svg">4주
+                                </span>
+                                <img src="images/gray_dot.svg">
+                                <span>02월 11일 시작</span>
+                                <img src="https://studypie.co/static/img/ic_arrow_right_gray.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-course"><span class="early-text">1차 얼리버드</span><img src="images/course_4.png">
+                        <div class="card-body">
+                            <p class="card-text1">프로그래밍</p>
+                            <h5 class="card-text2">파이썬 입문</h5>
+                            <p>프로그래밍을 한번도 해보지 않거나 기초를 다지고 싶은 분들을 대상으로 하는 스터디 입니다.</p>
+                        </div>
+                        <div class="card-body">
+                            <span class="cancle-text">16만5천원</span><br>
+                            <span class="font-red">13만5천원</span>
+                            <img src="images/gray_dot.svg">
+                            <span>5만원 환급</span>
+                        </div>
+                        <div class="card-footer-wrappher">
+                            <div class="card-footer">
+                                <span class="footer-text">
+                                    <img src="images/clock_sm.svg">8주
+                                </span>
+                                <img src="images/gray_dot.svg">
+                                <span>02월 11일 시작</span>
+                                <img src="https://studypie.co/static/img/ic_arrow_right_gray.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-course"><span class="early-text">1차 얼리버드</span><img src="images/course_5.png">
+                        <div class="card-body">
+                            <p class="card-text1">마케팅</p>
+                            <h5 class="card-text2">퍼포먼스 마케팅</h5>
+                            <p>퍼포먼스 마케팅에 대한 기본 개념을 이해하고 싶은 분들을 위한 스터디입니다.</p>
+                        </div>
+                        <div class="card-body">
+                            <span class="cancle-text">11만원</span><br>
+                            <span class="font-red">9만원</span>
+                            <img src="images/gray_dot.svg">
+                            <span>5만원 환급</span>
+                        </div>
+                        <div class="card-footer-wrappher">
+                            <div class="card-footer">
+                                <span class="footer-text">
+                                    <img src="images/clock_sm.svg">8주
+                                </span>
+                                <img src="images/gray_dot.svg">
+                                <span>02월 12일 시작</span>
+                                <img src="https://studypie.co/static/img/ic_arrow_right_gray.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-course"><span class="early-text">1차 얼리버드</span><img src="images/course_6.png">
+                        <div class="card-body">
+                            <p class="card-text1">데이터분석</p>
+                            <h5 class="card-text2">통계학 입문</h5>
+                            <p>머신러닝에 대해 더 깊게 공부하거나, 데이터 기반 의사결정, 확률 통계에 대한 기초적인 지식을 쌓고 싶은 분들을 위한 스터디입니다.</p>
+                        </div>
+                        <div class="card-body">
+                            <span class="cancle-text">11만원</span><br>
+                            <span class="font-red">9만원</span>
+                            <img src="images/gray_dot.svg">
+                            <span>5만원 환급</span>
+                        </div>
+                        <div class="card-footer-wrappher">
+                            <div class="card-footer">
+                                <span class="footer-text">
+                                    <img src="images/clock_sm.svg">4주
+                                </span>
+                                <img src="images/gray_dot.svg">
+                                <span>02월 08일 시작</span>
+                                <img src="https://studypie.co/static/img/ic_arrow_right_gray.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-course"><span class="early-text">1차 얼리버드</span><img src="images/course_7.png">
+                        <div class="card-body">
+                            <p class="card-text1">재테크</p>
+                            <h5 class="card-text2">부동산 소액투자 입문부터 실전까지</h5>
+                            <p>직/간접적인 소액단위 부동산 투자를 실습해보고 부동산 투자 경험을 시작할 수 있는 스터디입니다.</p>
+                        </div>
+                        <div class="card-body">
+                            <span class="cancle-text">11만원</span><br>
+                            <span class="font-red">9만원</span>
+                            <img src="images/gray_dot.svg">
+                            <span>5만원 환급</span>
+                        </div>
+                        <div class="card-footer-wrappher">
+                            <div class="card-footer">
+                                <span class="footer-text">
+                                    <img src="images/clock_sm.svg">4주
+                                </span>
+                                <img src="images/gray_dot.svg">
+                                <span>02월 11일 시작</span>
+                                <img src="https://studypie.co/static/img/ic_arrow_right_gray.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-course"><span class="early-text">1차 얼리버드</span><img src="images/course_8.png">
+                        <div class="card-body">
+                            <p class="card-text1">재테크</p>
+                            <h5 class="card-text2">재테크와 사회초년생을 위한 경제신문 읽기</h5>
+                            <p>재테크 공부와 시사싱식 쌓기를 위한 경제신문을 함께 읽는 스터디입니다.</p>
+                        </div>
+                        <div class="card-body">
+                            <span class="cancle-text">11만원</span><br>
+                            <span class="font-red">9만원</span>
+                            <img src="images/gray_dot.svg">
+                            <span>5만원 환급</span>
+                        </div>
+                        <div class="card-footer-wrappher">
+                            <div class="card-footer">
+                                <span class="footer-text">
+                                    <img src="images/clock_sm.svg">4주
+                                </span>
+                                <img src="images/gray_dot.svg">
+                                <span>02월 08일 시작</span>
+                                <img src="https://studypie.co/static/img/ic_arrow_right_gray.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-course"><span class="early-text">1차 얼리버드</span><img src="images/course_9.png">
+                        <div class="card-body">
+                            <p class="card-text1">외국어</p>
+                            <h5 class="card-text2">첨삭으로 배우는 실전영어</h5>
+                            <p>4년간 1만명 이상을 첨삭지도해온 텔라의 CEO와 원어민 튜터가 함께 진행하는 스터디입니다.</p>
+                        </div>
+                        <div class="card-body">
+                            <span class="cancle-text">16만5천원</span><br>
+                            <span class="font-red">13만5천원</span>
+                            <img src="images/gray_dot.svg">
+                            <span>5만원 환급</span>
+                        </div>
+                        <div class="card-footer-wrappher">
+                            <div class="card-footer">
+                                <span class="footer-text">
+                                    <img src="images/clock_sm.svg">5주
+                                </span>
+                                <img src="images/gray_dot.svg">
+                                <span>02월 15일 시작</span>
+                                <img src="https://studypie.co/static/img/ic_arrow_right_gray.svg">
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <div class="index-btn"><a href="#">모든 스터디 보러 가기 ></a></div>
+
+
+                <div class="section-wrapper">
+                    <h3 class="section-title">수강생 후기</h3>
+                    <p class="section-desc">스터디파이 스터디에 참여해주셨던 분들의 실제 후기입니다.</p>
+
+                    <div class="section-content-wrapper">
+                        <img src="images/cost.jpg">
+                        <div class="section-content">
+                            <p class="section-text1">" 큐레이팅이 잘되어 있어 공부하기 좋고 온라인이라 시간을 낭비하지 않습니다."</p>
+                            <p class="section-text2">류OO님<br>대학생</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="page-wrapper">
+        <div class="page-wrapper-bg">
             <section class="section-area">
-                <h3 class="section-title">스터디 카테고리</h3>
+
+                <h3 class="section-title"><span class="section-title-f">스터디</span> 카테고리</h3>
                 <p class="section-desc">다양한 주제의 스터디를 모집하고 있습니다</p>
                 <div class="category-deck">
                     <div class="category-card">
-                        <img src="#">
-                        <h5></h5>
+                        <img src="images/category_1.svg">
+                        <h5 class="category-title">블록체인</h5>
                     </div>
                     <div class="category-card">
-                        <img src="#">
-                        <h5></h5>
+                        <img src="images/category_2.svg">
+                        <h5 class="category-title">머신러닝</h5>
                     </div>
                     <div class="category-card">
-                        <img src="#">
-                        <h5></h5>
+                        <img src="images/category_3.svg">
+                        <h5 class="category-title">재테크</h5>
                     </div>
                     <div class="category-card">
-                        <img src="#">
-                        <h5></h5>
+                        <img src="images/category_4.svg">
+                        <h5 class="category-title">데이터분석</h5>
                     </div>
                     <div class="category-card">
-                        <img src="#">
-                        <h5></h5>
+                        <img src="images/category_5.svg">
+                        <h5 class="category-title">머신러닝</h5>
                     </div>
                     <div class="category-card">
-                        <img src="#">
-                        <h5></h5>
+                        <img src="images/category_6.svg">
+                        <h5 class="category-title">기획/디자인</h5>
                     </div>
                     <div class="category-card">
-                        <img src="#">
-                        <h5></h5>
+                        <img src="images/category_7.svg">
+                        <h5 class="category-title">마케팅</h5>
                     </div>
                     <div class="category-card">
-                        <img src="#">
-                        <h5></h5>
+                        <img src="images/category_8.svg">
+                        <h5 class="category-title">크리에이티브</h5>
                     </div>
                     <div class="category-card">
-                        <img src="#">
-                        <h5></h5>
+                        <img src="images/category_9.svg">
+                        <h5 class="category-title">북클럽</h5>
                     </div>
                     <div class="category-card">
-                        <img src="#">
-                        <h5></h5>
+                        <img src="images/category_10.svg">
+                        <h5 class="category-title">글쓰기</h5>
                     </div>
                     <div class="category-card">
-                        <img src="#">
-                        <h5></h5>
+                        <img src="images/category_11.svg">
+                        <h5 class="category-title">비즈니스</h5>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/category_12.svg">
+                        <h5 class="category-title">외국어</h5>
                     </div>
 
                 </div>
             </section>
         </div>
-        <div class="page-wrapper">
+        <div class="find-teacher-wrapper">
             <h1 class="find-teacher">스터디파이에서 온라인 스터디 진행자를 모십니다.</h1>
-            <div class="teacher-btn-area"><a href="#"><img src="#">진행자 신청하기</a></div>
+            <div class="teacher-btn-area"><a class="btn-send" href="#">진행자 신청하기</a></div>
         </div>
     </main>
 
-    <footer class="site-footer">
-        <div class="footer-logo-area"><img src="#"></div>
+    <footer class="footer-site">
+        <div class="footer-logo-area"><img src="images/logo_white.svg"></div>
         <div class="footer-desc-area">
-            <p>(주)스터디파이|대표이사 김태우</p>
-            <p>주소|서울특별시 구로구 구로중앙로 26길 34,1층</p>
-            <p>사업자등록번호|687-86-00946</p>
-            <p>통신판매업 신고번호|제2018-tjdnfrnfh-1334호</p>
-            <p>전화번호|010.0000.0000</p>
+            <p>(주)스터디파이 | 대표이사 김태우</p>
+            <p>주소 | 서울특별시 구로구 구로중앙로 26길 34,1층</p>
+            <p>사업자등록번호 | 687-86-00946</p>
+            <p>통신판매업 신고번호 | 제2018-서울구로-1334호</p>
+            <p>전화번호 | 010.0000.0000</p>
         </div>
         <div class="footer-desc-area">
-            <p>일반문의|카카오 플러스친구</p>
-            <p>제휴문의|support@studypie.co</p>
+            <p>일반문의 | <span class="footer-desc-q">카카오 플러스친구</span></p>
+            <p>제휴문의 | <span class="footer-desc-q">support@studypie.co</span></p>
         </div>
-        <div class="footer-doc-area"></div>
+
         <div class="footer-copyright-area">
-            <p>Terms of Service|Privacy Policy|FAQ</p>
+            <p>Terms of Service | Privacy Policy | FAQ</p>
             <P>Copyright 2019 @ Studypie Inc.</P>
         </div>
         <br>
         <div class="footer-excrow-area">
-            <img src="">
+            <img src="images/kb_escrow.png">
         </div>
 
 

@@ -5,6 +5,18 @@
     font-family:'Noto Sans KR', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+
+a {
+    text-decoration: none;
+}
+
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border:0;
+    border-top:1px solid rgb(228, 225, 225);
+}
 header {
     background-image:url("https://studypie.co/static/img/main_illust_1.svg");
     background-repeat:no-repeat;
@@ -17,15 +29,13 @@ body {
     background-repeat:no-repeat;
     background-position:right center;
     background-size:2000px 2000px;
-    
-
-    
+    z-index:-1;
 }
 
 .page-wrapper {
     max-width:1036px;
     margin:auto;
-    padding:60px 8% 60px 6%;
+    padding:60px 10% 60px 8%;
 }
 
 
@@ -35,28 +45,44 @@ body {
     justify-content:space-between;
 }
 
+.navbar-logo {
+    height:22px;
+    padding-top:0;
+}
+
+.navbar-signup {
+    font-size:20px;
+    word-spacing:1em;
+}
+
 .head-title {
     position:relative;
-    z-index:3;
+    z-index:1;
     padding:0 10px 10px 0;
+    top:-60px;
 }
 
 .title-dark {
     font-size:36px;
     color:#28283C;
     line-height:1.2;
-    font-weight:200;
+    font-weight:100;
     text-shadow:0px 0px 5px #ffffff;
-    max-width:600px;
+    max-width:550px;
 
 }
 
 .head-title p {
     max-width:400px;
     color:#777777;
-    margin-top:13px;
+    margin:20px 0 40px 0;
     font-size:16px;
-    line-height:1.4;
+    line-height:1.2;
+}
+
+.head-title-bold {
+    color:#455DFF;
+    font-weight: 700;
 }
 
 .btn {
@@ -82,36 +108,226 @@ body {
 
 .company-title-list {
     display:grid;
-    grid-template-columns:auto auto auto auto auto;
+    grid-template-columns:1fr 3fr 3fr 3fr 3fr 3fr 1fr;
     height:85px;
 }
 
 .section-area-text {
+    
     font-size:16px;
     color:#28283C;
-    font-weight:500;
-    vertical-align:middle;
+    font-weight:bold;
     text-align:center;
     margin:17px 0;
 }
 
-.process-content {
-    display:grid;
-    grid-template-columns:auto auto;
+.process {
+    margin-bottom:60px;
 }
 
-.process-content a {
-    display:block;
+.process-content {
+    display:grid;
+    grid-template-columns:1fr 3.5fr;
+}
 
+.process-content-box1 {
+    padding:15px 0;
+}
+
+.process-content-box1 a {
+    display:block;
+    margin:30px 0;
+}
+
+.process-content-box2 {
+    padding:50px 0 20px 0;
+    text-align:center;
+}
+
+.process-content-img {
+    width:220px;
+    height:220px;
+    margin:0 127px;
+    
+    
+}
+
+.content-title {
+    text-align:center;
+    font-size:18px;
+    line-height:1.2;
+    margin:0 0 5px 0;
+    font-style:normal;
+    white-space:normal;
+    font-weight:bolder;
+    word-spacing:-4px;
+    letter-spacing:0em;
+}
+
+.content-desc {
+    margin:0 auto;
+    text-align:center;
+    width:300px;
+    height:64px;
+    font-size:0.9rem;
+    font-weight:300;
+    letter-spacing:-0.1em;
+}
+
+.active-menu {
+   color:#455DFF !important;
+
+}
+
+.process-content-menu {
+
+    font-size:15px;
+    color:#adadad;
+}
+
+.slack-text {
+    color:#455DFF;
 }
 
 .contents {
     display:grid;
-    grid-template-columns:auto auto auto auto; 
+    grid-template-columns:1fr 1fr 1fr 1fr; 
+    grid-gap:20px;
 }
 
+
+.section-title {
+    text-align:center;
+    color:#28283C;
+    font-size:24px;
+    font-weight:600;
+}
+
+.f-light {
+    font-weight:300;
+}
+
+.card-course-tags {
+    position:relative;
+}
+
+.clip-image {
+    position:absolute;
+    z-index:2;
+    top:-18px;
+    left:-20px;
+    opacity:0.4;
+}
+
+.card-course-tags > p {
+    font-weight:bold;
+}
+
+li {
+    list-style:none;
+    background-color:white;
+    color:#3A4354;
+    font-size:16px;
+    font-weight:550;
+    display:inline-block;
+    border:2px solid #dbdbdb;
+    margin:6px;
+    padding:4px;
+    border-radius:18px;
+    line-height:190%;
+}
+
+.card-course {
+    height:400px;
+    min-width:180px;
+    position:relative;
+    box-shadow: 0 17px 30px 0 rgba(0, 0, 0, 0.20);
+    
+
+}
+
+.card-course img{
+    height:100px;
+    width:100%;
+
+}
+
+.early-text {
+    position: absolute;
+    background-color:#FF5C75;
+    color:white;
+    padding:3px 5px;
+    font-size:12px;
+    text-align:center;
+    border:1px solid white;
+    width:90px;
+}
+
+.card_main {
+    height:500px !important;
+}
+
+.card-body{
+    background-color: white;
+    padding:13px 13px 0 13px;
+    height:130px;
+}
+
+.card-body img, .card-footer img{
+    width:12px;
+    height:12px;
+    z-index:2;
+}
+
+.card-body p {
+    font-size:12px;
+    line-height:17px;
+    margin:5px 0 0 0;
+    
+}
+
+.card-text2 {
+    color:#455DFF;
+    font-size:14px;
+    font-weight:800;
+}
+
+.card-body span {
+    font-size:12px;
+}
+
+.cancle-text {
+    font-size:11px !important;
+    text-decoration-line: line-through;
+}
+
+.font-red {
+    font-size:14px;
+    color:red;
+}
+
+.card-footer span {
+    font-size:11px;
+    margin:2px;
+}
+
+.card-footer-wrappher {
+    height:40px;
+    
+
+}
+.card-footer {  
+    border-top:1px solid #dbdbdb;
+    width:100%;
+    height: 100%;
+    text-align:center;
+    background-color:white;
+    padding-top:5px;
+}
+
+
 .index-btn {
-    margin-top:30px;
+    margin:100px 0;
     width:100%;
     text-align:center;
 }
@@ -130,15 +346,175 @@ body {
     border: 2px solid #455DFF;
 }
 
-.category-deck {
-    display:grid;
-    grid-template-columns: auto auto auto auto;
 
-
+.section-desc {
+    text-align:center;
+    margin:10px 0 30px 0;
+    color:#28283C;
+    font-size:14px;
+    font-weight:100;
 }
 
 .section-content-wrapper {
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+}
 
+.section-content-wrapper img{
+    height:225px;
+    width:180px;
+}
+
+.section-text1 {
+    font-size:16px;
+    width:350px;
+    height:40px;
+    margin:10px;
+    word-spacing:-.1em;
+    letter-spacing:-.02em;
+}
+
+.section-text2 {
+    font-size:14px;
+    font-weight:300;
+    width:350px;
+    height:40px;
+    margin:80px 10px 10px 10px;
+}
+
+.page-wrapper-bg {
+    background-color:#455DFF;
+    padding: 70px;
+}
+
+.section-title, .section-title-f {
+    color:white;
+    word-spacing:-.4em
+    
+}
+
+.section-title-f {
+    font-weight:300;
+}
+
+.section-desc {
+    color:white;
+}
+
+.category-deck {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:30px;
+}
+.category-title{
+    font-weight:900;
+    font-size:15px;
+    color:#28283C;
+}
+
+.category-card {
+    text-align:center;
+    padding:20px 20px;;
+    color:#444;
+    border:none;
+    border-radius:4px;
+    background:white;
+}
+
+.category-card img {
+    width:45px;
+    height:45px;
+}
+
+.find-teacher {
+    font-family:inherit;
+    font-weight:500;
+    line-height:1.2;
+    font-size:26px;
+    text-align:center;
+    color:#28283C;
+    letter-spacing:-0.1em;
+    padding-bottom:30px;
+
+}
+
+.teacher-btn-area {
+    height:65px;
+    width:200px;
+    border-radius:40px;
+    padding:20px 35px;
+    background-color:#28283C;
+    margin: auto auto;
+
+}
+
+.btn-send {
+    color:#00FFFF;
+    font-weight:600;
+    margin:40px 0;
+    
+}
+
+.find-teacher-wrapper {
+    padding:60px;
+    text-align:center;
+    background-image:url("http://studypie.co/static/img/teacher_bg.png")
+}
+
+.footer-site {
+    text-align:center;
+    padding:80px 25px 19px 25px;
+    width:100%;
+    height:auto;
+    background-color:#28283C;
+    vertical-align:center;
+    color:white;
+}
+
+.footer-site img {
+    width:120px;
+    height:25px;
+}
+
+.footer-desc-area {
+    margin-top:40px;
+    
+}
+
+.footer-desc-area p {
+    font-weight:400;
+    font-size:11.5px;
+    margin-bottom:3px;
+}
+
+.footer-desc-q {
+    color:#00FFFF;
+}
+
+.footer-copyright-area {
+    font-size:11px;
+    font-weight:100;
+    margin-top:30px;
+}
+
+.footer-excrow-area img {
+    height:80px;
+    width:80px;
+}
+
+img {
+    vertical-align:middle;
+    border-style:none;
+}
+
+
+.company-title-list img{
+    max-height:85px;
+    width:auto;
+    
+}
+
+.index-btn {
+    vertical-align:middle;
 }
