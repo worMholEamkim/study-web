@@ -350,7 +350,7 @@ li {
 .section-desc {
     text-align:center;
     margin:10px 0 30px 0;
-    color:#28283C;
+    color:WHITE;
     font-size:14px;
     font-weight:100;
 }
@@ -389,8 +389,9 @@ li {
 }
 
 .section-title, .section-title-f {
+    
+    word-spacing:-.4em;
     color:white;
-    word-spacing:-.4em
     
 }
 
@@ -398,9 +399,6 @@ li {
     font-weight:300;
 }
 
-.section-desc {
-    color:white;
-}
 
 .category-deck {
     display:grid;
